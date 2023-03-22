@@ -8,8 +8,9 @@ sleep(30)
 screenWidth, screenHeight = pyautogui.size()
 currentMouseX, currentMouseY = pyautogui.position()
 pyautogui.click(240, 525)
-sleep(30)
+sleep(25)
 pyautogui.click(293, 147)
+sleep(5)
 pyautogui.click(1917, 3)
 
 # # Move mouse 10 pixels down, that is, move the mouse relative to its current position.
